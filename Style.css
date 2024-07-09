@@ -1,1 +1,54 @@
+/* Custom styles for the card */
+.card.border-gray {
+    border-color: gray;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    perspective: 1000px;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: rotateY(20deg);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img-top {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+    transform: translateZ(50px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+ul.card-text {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.card-text li {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
 
