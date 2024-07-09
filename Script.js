@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         switch (section) {
             case 'home':
                 sectionContent = `
-                    <h2>Welcome to Our Website</h2>
+                    <h2>Welcome to jathi 💎</h2>
                     <p>This is the home section. Use the navigation to explore different sections.</p>
                 `;
                 break;
